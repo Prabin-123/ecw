@@ -132,10 +132,10 @@
                                         <span style="color:red">{{ $errors->first('country') }}</span>
                                     </div>
                                     <span>
-                    <input type="radio" name="payment_type" value="COD" checked="checked"> COD
-                </span>
+                                    <input type="radio" name="payment_type" value="COD" checked="checked"> COD
                                     <input type="radio" name="payment_type" value="paypal"> PayPal
-                                    <div class="row" style="height: 34px; margin-left: 15px;">           
+                                </span>
+                                    <div class="row" style="height: 5px; margin-left: 15px;">           
                                             @include('front.paypal') &nbsp;&nbsp;
                                         <input type="submit" value="Continue" class="btn btn-primary btn-sm">
                                     </div>
